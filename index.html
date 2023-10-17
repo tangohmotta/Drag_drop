@@ -3,12 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>rag and drop</title>
+    <meta http-equiv="X-UA-Comppatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Drag and drop</title>
 </head>
-<body class="bg-black">
-    <div class="bg-blue-300">
-        <div class="mx-auto my-12 w-48 h-48 p-5 bg-white">Tosh</div>
+<body>
+<div class="flexed">
+ <div class="empty">
+    <div class="fill" draggable="true" id="shit1">
+        <img src="../Capture.JPG" width="150px" height="150px" alt="">
     </div>
+ </div>  
+ <div class="empty">
+    <div class="fill" draggable="true" id="shit2" onomouse="drag_func">
+        <img src="photos/casino_royale-1920x1080.jpg" width="150px" height="150px" alt="">
+    </div>
+</div>
+ <div class="empty">
+    <div class="fill" draggable="true" id="shit3">
+        <img src="photos/che_guevara_freedom-wallpaper-1920x1080.jpg" width="150px" height="150px" alt="">
+    </div>
+</div>
+ <div class="empty">
+    <div class="fill" draggable="true" id="shit4">
+        <img src="photos/chris_pratt_jurassic_world-3840x2160.jpg" width="150px" height="150px" alt="">
+    </div>
+</div>
+ <div class="empty">
+    <div class="fill" draggable="true" id="shit5">
+        <img src="photos/cold_day_in_hell-wallpaper-1920x1080.jpg" width="150px" height="150px" alt="">
+    </div>
+</div>
+</div> 
+    <script src="drag.js"></script>
 </body>
 </html>
